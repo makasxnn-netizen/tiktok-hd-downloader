@@ -1,0 +1,14 @@
+TIKTOK HD — versión para usar desde el móvil
+
+IMPORTANTE: el ZIP es el proyecto, no una web pública ya alojada.
+No necesitas instalar Python en tu teléfono. El servidor se ejecuta en la nube.
+
+Publicación:
+1. Sube estos archivos a un repositorio de GitHub (puedes hacerlo desde Chrome).
+2. Entra a Render y crea un Web Service conectado a ese repositorio.
+3. Render detectará render.yaml; si te pregunta:
+   Build command: pip install -r requirements.txt
+   Start command: gunicorn app:app
+4. Espera a que termine y abre la URL *.onrender.com que Render te asigne.
+
+El plan gratuito puede dormir cuando no se usa y tardar en arrancar. El servicio de descarga depende de que yt-dlp sea compatible con TikTok en ese momento; no hay garantía de que todos los videos funcionen. No se puede prometer una resolución que el origen no ofrece.
